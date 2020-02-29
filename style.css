@@ -1,0 +1,126 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	background-color: rgba(102, 51, 153, 0.9);
+	background-image: url(pic1.jpg);
+	background-position: center;
+	background-blend-mode: overlay;
+	background-size: cover;
+
+}
+#title{
+	font-size: 2em;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 20px;
+}
+#title + p{
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 70px;
+}
+#survey-form{
+	margin: auto;
+	width: 40%;
+	font-size: 1.2rem;
+}
+
+#name{
+	width: 18rem;
+	height: 2rem;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+	margin-top: 0.3rem;
+}
+#email {
+	width: 18rem;
+	height: 2rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	margin-top: 0.3rem;
+}
+#number{
+	width: 18rem;
+	height: 2rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	margin-top: 0.3rem;
+	border-radius: 3px;
+}
+#dropdown{
+	width: 18rem;
+	height: 2rem;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+.drop{
+	width: 18rem;
+	height: 1.8rem;
+	margin-bottom: 1rem;
+}
+#comment{
+	padding-top: 1.3rem;
+	margin-bottom: -1rem;
+}
+button{
+	margin: 2.5rem 0rem 3rem 8rem;
+	width: 6rem;
+	height: 2.5rem;
+	font-size: 1.3rem;
+	border-radius: 5px;
+}
+button:hover{
+	color: #fff;
+	background-color: #3366ff;
+}
+
+@media (max-width: 657px){
+	#survey-form{
+	margin: auto;
+	width: 60%;}
+
+}
+@media (max-width: 527px){
+	#survey-form{
+	margin: auto;
+	width: 80%;
+	font-size: 1.1rem;
+}
+textarea{
+	height: 10rem;
+	width: 15rem;
+}
+button{
+	margin-left: 7rem;
+	width: 4.5rem;
+	height: 2rem;
+	font-size: 1.1rem;
+}
+#title + p{
+	text-align: center;
+	font-size: 1.1em;
+	margin-bottom: 40px;
+}
+#name{
+	width: 15rem;
+	height: 2rem;
+}
+#email {
+	width: 15rem;
+	}
+#number{
+	width: 15rem;
+}
+#dropdown{
+	width: 15rem;
+}
+.drop{
+	width: 15rem;
+}
+
+}	
